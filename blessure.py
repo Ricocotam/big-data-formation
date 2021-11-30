@@ -6,7 +6,7 @@ membres = [
     "jambe",
     "bras",
     "cou",
-    "tête",
+    "tete",
     "oreille",
     "coude",
     "genou",
@@ -16,7 +16,7 @@ membres = [
     "cheville",
     "main",
     "épaule",
-    "côte"
+    "cote"
 ]
 
 member_side = [
@@ -28,7 +28,7 @@ member_side = [
     "cheville",
     "main",
     "epaule",
-    "côte"
+    "cote"
 ]
 side = ["droit", "gauche"]
 
