@@ -31,7 +31,7 @@ def get_random_boisson_volume():
     return boissons[i], volume
 
 def generate_apero():
-    timestamp = datetime.now()
+    timestamp = datetime.datetime.now()
     nom_personne = get_random_prenom()
     boisson, volume = get_random_boisson_volume()
 
