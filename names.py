@@ -1,12 +1,12 @@
 import random
 import pandas
 
-# Download : wget https://www.data.gouv.fr/fr/datasets/r/9ae80de2-a41e-4282-b9f8-61e6850ef449
+# Download : wget https://www.data.gouv.fr/fr/datasets/r/9ae80de2-a41e-4282-b9f8-61e6850ef449 patronymes.csv
 noms = pandas.read_csv("patronymes.csv")
 noms = noms[noms["count"] > 2000]
 noms = noms["patronyme"].tolist()
 
-# Download : wget https://www.data.gouv.fr/fr/datasets/r/4b13bbf2-4185-4143-92d3-8ed5d990b0fa
+# Download : wget https://www.data.gouv.fr/fr/datasets/r/4b13bbf2-4185-4143-92d3-8ed5d990b0fa prenom.csv
 prenoms = pandas.read_csv("prenom.csv")
 prenoms = prenoms[prenoms["count"] > 5000]
 prenoms = prenoms["prenoms"].tolist()
