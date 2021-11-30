@@ -13,11 +13,14 @@ result = db.Apero.insert_many(aperos)
 print("Insert successful : ", result.acknowledged)
 
 nb_identity = 30_000
-identitys = [generate_identity() for i in range(nb_identity)]
-result = db.Apero.insert_many(identitys)
+identitys = []
+for i in range(nb_identity):
+  new_identity = generate_identity()
+  identitys.append(new_identity)
+result = db.Identites.insert_many(identitys)
 print("Insert successful : ", result.acknowledged)
 
 nb_blessures = 300_000
 blessures = [generate_blessure() for i in range(nb_blessures)]
-result = db.Apero.insert_many(blessures)
+result = db.Blessures.insert_many(blessures)
 print("Insert successful : ", result.acknowledged)
