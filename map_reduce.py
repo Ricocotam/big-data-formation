@@ -1,0 +1,21 @@
+# Nom resto ; volume bière ; volume vin ; timestamp
+sample = [
+  ["resto1", 12, 54, 1],
+  ["resto2", 0, 344, 1],
+  ["resto1", 35, 4, 2],
+  ["resto2", 0, 13, 2],
+  ["resto1", 350, 54, 3],
+  ["resto2", 1, 12, 3],
+  ["resto1", 0, 64, 4],
+  ["resto2", 0, 54, 4],
+  ["resto1", 156, 1, 5],
+  ["resto2", 0, 64, 5],
+  ["resto1", 132, 132, 6],
+  ["resto2", 0, 354, 6],
+  ["resto1", 12, 156, 7],
+  ["resto2", 0, 124, 7],
+  ["resto1", 879, 132, 8],
+  ["resto2", 0, 12, 8],
+  ["resto1", 54, 26, 9],
+  ["resto2", 0, 54, 9],
+]
